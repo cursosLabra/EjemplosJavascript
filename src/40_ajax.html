@@ -1,0 +1,20 @@
+<html>
+<script>
+function mostrar() {
+ var xhr = new XMLHttpRequest();
+ xhr.onreadystatechange = function() {
+  if (xhr.readyState == 4 && xhr.status == 200) {
+    document.getElementById("campo").innerHTML=xhr.responseText;
+    }
+ }
+ xhr.open("GET","./mensaje.txt",true);
+ xhr.send();
+}
+</script>
+<h1>Lista de alumnos</h1>
+<h2>Pulsar 
+  <span onclick="mostrar()"
+        style="color:blue">aqui</span> 
+    para obtener la lista</h2>
+ <div id="campo"></div>
+</html>

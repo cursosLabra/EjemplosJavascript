@@ -1,0 +1,15 @@
+{ "pedido":  { 
+   "producto":  [ 
+     {  "codigo" : "R23" ,
+         "nombre" : "Rotulador RX2",
+         "cantidad" : 20,
+         "comentarios" : "Comprobad que escriben"
+    },
+    {  "codigo" : "G56" , 
+        "nombre" : "Grapadora Lin",
+        "cantidad" : 2,
+        "comentarios" : "Envuelta para regalo"
+    }
+  ]
+ }
+}
